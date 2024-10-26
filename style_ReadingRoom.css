@@ -1,0 +1,708 @@
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ * 
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#header {
+	background:#4B0082;
+	padding:5px;
+	overflow:hidden;
+}
+
+.headerNavText{
+color:#ffffff;
+}
+
+#headerLinks{
+	width: 400px;
+	float: right;
+	margin-right: 315px;
+}
+
+#headerLinks p{
+margin: 0px;
+padding: 0px;
+padding-right:10px;
+display:inline-block;
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+text-transform:uppercase;
+}
+
+/* unvisited link */
+#headerLinks a:link {
+    color: #ffffff;
+	text-decoration:none;
+}
+
+/* visited link */
+#headerLinks a:visited {
+    color: #ffffff;
+	text-decoration:none;
+}
+
+/* mouse over link */
+#headerLinks a:hover {
+    color: #ffffff;
+	text-decoration:none;
+}
+
+/* selected link */
+#headerLinks a:active {
+    color: #ffffff;
+	text-decoration:none;
+}
+
+
+#content {
+	margin:0 auto;
+	padding-bottom:320px; /* Height of the footer element */
+	width:1117px;
+	overflow:hidden;
+}
+
+#gameDemo{
+width:1117px;
+position:relative;
+overflow:hidden;
+}
+
+#gameDemo img{
+	width: 100%;
+	position: relative;
+	z-index: 300;
+}
+
+.col{
+width:28%;
+height:325px;
+float:left;
+margin-right:30px;
+padding-right:25px;
+border-right:2px double #999;
+}
+
+.col2{
+width:28%;
+height:325px;
+float:left;
+margin-left:20px;
+margin-right:20px;
+padding-right:25px;
+border-right:2px double #999;
+}
+
+.col3{
+width:28%;
+float:right;
+margin-right:30px;
+}
+
+#AboutText{
+position:absolute;
+z-index:300;
+margin-top:350px;
+margin-left:50px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.25em;
+text-transform:uppercase;
+}
+
+#AboutTextBody{
+width:300px;
+position:absolute;
+z-index:300;
+margin-top:375px;
+margin-left:60px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.0em;
+}
+
+#AboutTextBody2{
+width:240px;
+position:absolute;
+z-index:300;
+margin-top:405px;
+margin-left:425px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.0em;
+}
+
+#AboutTextBody3{
+width:340px;
+position:absolute;
+z-index:300;
+margin-top:570px;
+margin-left:60px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.1em;
+font-style:italic;
+}
+
+.colHeader{
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.25em;
+text-transform:uppercase;
+text-align:center;
+}
+
+/*Begin styles for Doors.html*/
+#Floor{
+width:1117px;
+position:relative;
+top:0px;
+left:-2px;
+z-index:100;
+}
+
+#Floor img{
+width:100%;
+}
+
+
+#Bookshelf{
+width:565px;
+position:absolute;
+top:7px;
+left:312px;
+z-index:300;
+}
+
+#Bookshelf img{
+width:100%;
+}
+
+#Sec1_Bk1{
+width:13px;
+position:absolute;
+top:22px;
+left:14px;
+z-index:500;
+}
+
+#Sec1_Bk1 img{
+width:100%;
+}
+
+#Sec1_Bk2{
+width:13px;
+position:absolute;
+top:21px;
+left:28px;
+z-index:500;
+}
+
+#Sec1_Bk2 img{
+width:100%;
+}
+
+#Sec1_Bk3{
+width:13px;
+position:absolute;
+top:22px;
+left:42px;
+z-index:500;
+}
+
+#Sec1_Bk3 img{
+width:100%;
+}
+
+#Sec1_Bk4{
+width:13px;
+position:absolute;
+top:15px;
+left:56px;
+z-index:500;
+}
+
+#Sec1_Bk4 img{
+width:100%;
+}
+
+#Sec1_Bk5{
+width:13px;
+position:absolute;
+top:30px;
+left:71px;
+z-index:600;
+}
+
+#Sec1_Bk5 img{
+width:100%;
+}
+
+#Sec1_Bk6{
+width:13px;
+position:absolute;
+top:15px;
+left:85px;
+z-index:600;
+}
+
+#Sec1_Bk6 img{
+width:100%;
+}
+
+#Sec1_Bk8{
+width:20px;
+position:absolute;
+top:19px;
+left:133px;
+z-index:600;
+}
+
+#Sec1_Bk8 img{
+width:100%;
+}
+
+#Sec1_Bk9{
+width:13px;
+position:absolute;
+top:43px;
+left:152px;
+z-index:600;
+}
+
+#Sec1_Bk9 img{
+width:100%;
+}
+
+#Sec1_Bk10{
+width:18px;
+position:absolute;
+top:22px;
+left:165px;
+z-index:600;
+}
+
+#Sec1_Bk10 img{
+width:100%;
+}
+
+#Sec2_Bk1{
+width:12px;
+position:absolute;
+top:30px;
+left:195px;
+z-index:600;
+}
+
+#Sec2_Bk1 img{
+width:100%;
+}
+
+#Sec2_Bk2{
+width:18px;
+position:absolute;
+top:30px;
+left:208px;
+z-index:600;
+}
+
+#Sec2_Bk2 img{
+width:100%;
+}
+
+#Sec2_Bk3{
+width:65px;
+position:absolute;
+top:44px;
+left:226px;
+z-index:600;
+}
+
+#Sec2_Bk3 img{
+width:100%;
+}
+
+#Sec3_Bk1{
+width:26px;
+position:absolute;
+top:34px;
+left:485px;
+z-index:600;
+}
+
+#Sec3_Bk1 img{
+width:100%;
+}
+
+#Sec3_Bk2{
+width:26px;
+position:absolute;
+top:36px;
+left:510px;
+z-index:600;
+}
+
+#Sec3_Bk2 img{
+width:100%;
+}
+
+#Sec3_Bk3{
+width:19px;
+position:absolute;
+top:34px;
+left:535px;
+z-index:600;
+}
+
+#Sec3_Bk3 img{
+width:100%;
+}
+
+#Sec4_Bk7{
+width:47px;
+position:absolute;
+top:140px;
+left:136px;
+z-index:600;
+}
+
+#Sec4_Bk1 img{
+width:100%;
+}
+
+#Sec5_Bk1{
+width:20px;
+position:absolute;
+top:154px;
+left:215px;
+z-index:600;
+}
+
+#Sec5_Bk1 img{
+width:100%;
+}
+
+#Sec6_Bk1{
+width:18px;
+position:absolute;
+top:156px;
+left:466px;
+z-index:700;
+}
+
+#Sec6_Bk1 img{
+width:100%;
+}
+
+#Sec6_Bk2{
+width:15px;
+position:absolute;
+top:165px;
+left:486px;
+z-index:700;
+}
+
+#Sec6_Bk2 img{
+width:100%;
+}
+
+#Sec6_Bk3{
+width:18px;
+position:absolute;
+top:152px;
+left:503px;
+z-index:700;
+}
+
+#Sec6_Bk3 img{
+width:100%;
+}
+
+#Sec6_Bk4{
+width:13px;
+position:absolute;
+top:155px;
+left:523px;
+z-index:700;
+}
+
+#Sec6_Bk4 img{
+width:100%;
+}
+
+#Sec6_Bk5{
+width:16px;
+position:absolute;
+top:152px;
+left:537px;
+z-index:700;
+}
+
+#Sec6_Bk5 img{
+width:100%;
+}
+
+#Sec9_Bk1{
+width:15px;
+position:absolute;
+top:275px;
+left:400px;
+z-index:700;
+}
+
+#Sec9_Bk1 img{
+width:100%;
+}
+
+#Sec9_Bk2{
+width:16px;
+position:absolute;
+top:275px;
+left:416px;
+z-index:700;
+}
+
+#Sec9_Bk2 img{
+width:100%;
+}
+
+#Sec9_Bk3{
+width:15px;
+position:absolute;
+top:275px;
+left:431px;
+z-index:700;
+}
+
+#Sec9_Bk3 img{
+width:100%;
+}
+
+#Sec9_Bk4{
+width:16px;
+position:absolute;
+top:277px;
+left:463px;
+z-index:700;
+}
+
+#Sec9_Bk4 img{
+width:100%;
+}
+
+#Sec9_Bk5{
+width:17px;
+position:absolute;
+top:276px;
+left:480px;
+z-index:700;
+}
+
+#Sec9_Bk5 img{
+width:100%;
+}
+
+#Sec9_Bk6{
+width:17px;
+position:absolute;
+top:276px;
+left:498px;
+z-index:700;
+}
+
+#Sec9_Bk6 img{
+width:100%;
+}
+
+#lamp{
+width:375px;
+position:absolute;
+top:52px;
+left:-82px;
+z-index:900;
+}
+
+#lamp img{
+width:100%;
+}
+
+
+#Window4{
+width:70px;
+position:absolute;
+top:230px;
+left:557px;
+z-index:400;
+}
+
+#Window4 img{
+width:100%;
+}
+
+#Door{
+width:38px;
+position:absolute;
+top:330px;
+left:692px;
+z-index:550;
+}
+
+#Door img{
+width:100%;
+}
+
+#Wall{
+width:391px;
+position:absolute;
+top:0px;
+left:730px;
+z-index:850;
+}
+
+#Wall img{
+width:100%;
+}
+
+
+#footer {
+	background:#ffab62;
+	width:100%;
+	height:300px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#Banner{
+width:67%;
+margin:0 auto;
+}
+
+/*End styles for Doors.html*/
+
+/*Footer Styles*/
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+/*Specific Styles*/
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+		inset 0 0 0 0 rgba(200,95,66, 0.4),
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+	transition: all 0.4s ease-in-out;
+}
+
+.ch-img-1 { 
+	background-image: url(Hallway.png);
+}
+
+.ch-img-2 { 
+	background-image: url(BookShelf2_SQUARE.png);
+}
+
+.ch-img-3 { 
+	background-image: url(Garden_Square.png);
+}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	transform: scale(0);
+	backface-visibility: hidden;
+	left: 2px;
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 55px 0 0 0;
+	height: 80px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 110px rgba(200,95,66, 0.4),
+		inset 0 0 0 16px rgba(255,255,255,0.8),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	transform: scale(1);	
+}
